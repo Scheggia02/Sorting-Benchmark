@@ -23,4 +23,8 @@ copy_list = mylist.copy()
 default_sort_time = copy_list.sort()
 
 
-#Save 
+#Save results on a file
+
+result_file = open("results.csv", "a")
+result_file.write(f"{len(mylist)}, {selection_sort_time}, {bubble_sort_time}, {default_sort_time}")
+result_file.close()
