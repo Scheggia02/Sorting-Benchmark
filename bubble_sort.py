@@ -1,4 +1,4 @@
-def BubbleSort(_list):
+def bubble_sort(_list):
     start_time = time.time() 
 
     limit = len(_list) - 1
