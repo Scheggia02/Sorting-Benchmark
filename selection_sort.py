@@ -1,5 +1,4 @@
 from timeit import time
-from random import randrange
 
 # Mi riscrivo una funzione che trova il minimo di una lista
 # Lista di partenza da ordinare

@@ -1,3 +1,6 @@
+from timeit import time
+
+
 def bubble_sort(_list):
     start_time = time.time() 
 

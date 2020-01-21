@@ -4,7 +4,7 @@ from bubble_sort import bubble_sort
 
 #Let's create a list
 
-mylist = [randrange(1000) for _ in range(10000)]
+mylist = [randrange(1000) for _ in range(1000)]
 
 #.....
 
@@ -26,5 +26,5 @@ default_sort_time = copy_list.sort()
 #Save results on a file
 
 result_file = open("results.csv", "a")
-result_file.write(f"{len(mylist)}, {selection_sort_time}, {bubble_sort_time}, {default_sort_time}")
+result_file.write(f"{len(mylist)}, {selection_sort_time}, {bubble_sort_time}, {default_sort_time}\n")
 result_file.close()
