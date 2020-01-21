@@ -17,4 +17,10 @@ selection_sort_time = selection_sort(mylist.copy())
 
 bubble_sort_time = bubble_sort(mylist.copy())
 
+#Save Execution time of Default Sort
+
+copy_list = mylist.copy()
+default_sort_time = copy_list.sort()
+
+
 #Save 
